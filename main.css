@@ -1,0 +1,14 @@
+*{
+    box-sizing : border-box;
+}
+
+.gameObject{
+    width: 100px;
+    height: 100px;
+    margin:5px;
+    cursor: pointer;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
