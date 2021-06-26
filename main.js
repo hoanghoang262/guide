@@ -38,6 +38,8 @@ winGame = function(e){
     point = document.querySelector('h3 > span')
     point.innerHTML = parseInt(point.innerHTML) + e
     inputElement.value = 0
+    round = document.querySelector('h1 > span')
+    round.innerHTML = parseInt(round.innerHTML)+1
 }
 
 //Enter table size
